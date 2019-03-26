@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quản lý</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/datepicker3.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse"><span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span></button>
+                <a class="navbar-brand" href="#">Quản lý <span> Điểm Sinh Viên</span></a>
+            </div>
+        </div>
+    </nav>
+    <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+        <ul class="nav menu">
+            <li class=""><a href="./index.html"><em class="fa">&nbsp;</em>Thông tin</a></li>
+            <li class="parent">
+                <a data-toggle="collapse" href="#sub-item-1">
+                    <em class="fa fa-navicon">&nbsp;</em> Quản lý <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"></span>
+                </a>
+                <ul class="children collapse in" id="sub-item-1">
+                    <li><a class="" href="./quanlykhoa.html"><span class="fa fa-arrow-right">&nbsp;</span>Khoa</a></li>
+                    <li><a class="" href="./quanlymon.html"><span class="fa fa-arrow-right">&nbsp;</span>Môn</a></li>
+                    <li><a class="" href="./quanlylop.html"><span class="fa fa-arrow-right">&nbsp;</span>Lớp</a></li>
+                    <li><a class="" href="./quanlysinhvien.html"><span class="fa fa-arrow-right">&nbsp;</span>Sinh viên</a></li>
+                    <li><a class="" href="./quanlydiem.html"><span class="fa fa-arrow-right">&nbsp;</span>Điểm</a></li>
+                </ul>
+            </li>
+            <li class="parent">
+                    <a data-toggle="collapse" href="#sub-item-2">
+                        <em class="fa fa-navicon">&nbsp;</em> In / Xuất <danhspan data-toggle="collapse" href="#sub-item-2" class="icon pull-right"></span>
+                    </a>
+                    <ul class="children collapse in" id="sub-item-2">
+                        <li><a class="" href="./danhsachsinhvien.html"><span class="fa fa-arrow-right">&nbsp;</span>Danh sách sinh viên</a></li>
+                        <li><a class="active" href="./bangdiemmonhoc.html"><span class="fa fa-arrow-right">&nbsp;</span>Bảng điểm môn học</a></li>
+                        <li><a class="" href="./bangdiemsinhvien.html"><span class="fa fa-arrow-right">&nbsp;</span>Bảng điểm sinh viên</a></li>
+                        <li><a class="" href="./bangdiemtongket.html"><span class="fa fa-arrow-right">&nbsp;</span>Bảng điểm tổng kết</a></li>
+                    </ul>
+                </li>
+            <li class=""><a href="dangnhap.html"><em class="fa fa-sign-out">&nbsp;</em>Đăng xuất</a></li>
+        </ul>
+    </div>
+
+    <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li>
+                    <a href="./index.html">
+                        <em class="fa fa-home"></em>
+                    </a>
+                </li>
+                <li class="active">Bảng điểm môn học</li>
+            </ol>
+        </div>
+
+        ---------------------
+        viet them o day
+        ---------------------
+        
+    </div>
+</body>
+
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.dataTables.min.js"></script>
+<script src="../js/dataTables.bootstrap.min.js"></script>
+<script src="../js/easypiechart.js"></script>
+<script src="../js/easypiechart-data.js"></script>
+<script src="../js/bootstrap-datepicker.js"></script>
+</html>
